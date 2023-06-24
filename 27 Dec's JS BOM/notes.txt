@@ -1,0 +1,34 @@
+BOM (Browser Object Model)=> Represents the Current Browser Window
+1. Document (DOM)
+2. History
+   1.Length
+   2.Back()
+   3.Forward()
+   4.go()
+3. Location
+   1.href
+   2.Protocol
+   3.hostname
+   4.domaim
+   5.pathName
+   6.search
+   7.hash
+4. Screen
+   1.Width
+   2.Height
+   3.Available Width
+   4.Available Height
+   5.Available Top
+   6.Available Left
+5. Navigator
+   1.userAgent
+   2.geoLocation
+   3.etc.....
+6. LocalStorage
+   1.setItem
+   2.getItem
+   3.removeItem   
+
+https://google.com/abc?search=earth#introduction
+
+Protocol://hostname.domain/path?queryString#hash

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #54c3ef;
+}
+.heading {
+  text-align: center;
+  color: #fad744;
+  font-family: "Caveat Brush", cursive;
+  font-size: 80px;
+}
+#smallContainer {
+  background-color: #2b3252;
+  width: 60%;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+ul {
+  margin: 0;
+}
+li {
+  list-style-type: none;
+  color: #fad744;
+  margin-left: -35px;
+  padding: 10px;
+  font-size: 17px;
+}
+input,
+label {
+  cursor: pointer;
+}
+p {
+  color: #fad744;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight:bold;
+}
+#submitButton {
+  background-color: #fad744;
+  border: none;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.bisectingLine {
+  width: 95%;
+  margin-top: 30px;
+}
+#bigContainer {
+  display: flex;
+  justify-content: center;
+}
+.scoreBox {
+  background-color: white;
+  width: 10%;
+  height: 230px;
+  border-radius: 5px;
+  padding: 35px;
+  position: fixed;
+  margin-left: 70%;
+}
+.scoreBox p {
+  color: black;
+  margin: 0;
+  font-size: 20px;
+}
+.score1,
+.score2 {
+  font-size: 40px;
+}
